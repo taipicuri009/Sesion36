@@ -1,0 +1,55 @@
+body{
+    color: rgb(23, 104, 255);
+    background-color: rgb(233, 195, 195);
+    background:  url(https://cutewallpaper.org/22/grid-aesthetic-wallpapers/2556922403.jpg) no-repeat center center fixed;
+}
+.sidebar-wrapper{
+    width: 500px;
+    margin: 30px auto;
+}
+.sidebar{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    height: 500px;
+    background-color: rgb(238, 167, 238);
+    border-radius: 90px;
+    border-top: 20px outset hotpink;
+    border-right: 30px outset  cyan;
+}
+.sidebar_logo h3{
+    text-transform: uppercase;
+    color:rgb(87, 0, 250);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.sidebar_nav{
+    flex-grow: 1;
+    list-style: none;
+    padding: 0;
+}
+.sidebar_nav li{
+    padding: 15px;
+    cursor: pointer;
+}
+.sidebar_nav li,.sidebar_nav li:hover{
+    background-color: powderblue;
+    color: salmon;
+}
+.sidebar_nav li i{
+    width: 25px;
+    display:inline-block;
+    text-align: center;
+}
+.sidebar-profile{
+    text-align: center;
+    margin-top: 20px;
+}
+.sidebar-profile img{
+    width: 200px;
+    height: 100px;
+    border-radius: 90%;
+}
+.sidebar_profile h4{
+    margin-top: 0;
+}

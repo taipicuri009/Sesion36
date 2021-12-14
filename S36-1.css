@@ -1,0 +1,33 @@
+body{
+    padding: 2%;
+    color: rgb(130, 21, 255);
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: lightpink;
+    background:  url(https://cutewallpaper.org/22/grid-aesthetic-wallpapers/2556922403.jpg) no-repeat center center fixed;
+}
+div{
+    display: flex;
+    flex-flow: row wrap;
+}
+.field, .textarea{
+    margin: 0.5em 1em 0;
+    padding: .5em 1em;
+    border: 1px solid rgb(25, 95, 245);
+}
+.field{
+    flex: 1 0 45%;
+    width: 45%;
+    float: left;
+}
+.texarea{
+    flex: 1 0 90%;
+    width: 90%;
+    margin-top: 10px;
+}button{
+    padding: 5px;
+    border: 1px solid rgb(231, 36, 215);
+    background-color: rgb(185, 209, 255);
+    color: rgb(32, 35, 190);
+    margin-top: 10px;
+}
